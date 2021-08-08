@@ -1,0 +1,14 @@
+.navbar {
+    &__brand {
+        font-size: $xxx-large-font;
+    }
+
+    &__sup {
+        font-size: $x-small-font;
+        vertical-align: super;
+    }
+
+    &__icon {
+        color: $swamp;
+    }
+}

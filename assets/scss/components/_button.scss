@@ -1,0 +1,17 @@
+.button {
+    color: $white;
+    border-style: none;
+    font-size: $small-font;
+    font-weight: $regular-font;
+    padding: 0.4rem 0.75rem;
+}
+
+.button--message {
+    background-color: $sky-blue;
+    margin: 0 0.75rem;
+}
+
+.button--follow {
+    background-color: $persimmon;
+    padding: 0.4rem 1.125rem;
+}

@@ -1,0 +1,28 @@
+.card {
+    border: none;
+    border-radius: 0;
+    margin-bottom: 1rem;
+
+    &__image {
+        border-radius: 0;
+        margin-bottom: 0.625rem;
+    }
+
+    &__title { 
+        font-size: $x-large-font;       
+        font-weight: $bold-font;
+        color: $swamp;
+        margin-bottom: 0.25rem;
+
+        @include respond-to($bp-md) {
+            font-size: $large-font;
+        }
+    }
+
+    &__text {
+        font-size: $medium-font;
+        font-weight: $regular-font;
+        color: $gray;
+        margin-bottom: 0.5rem;
+    }
+}
